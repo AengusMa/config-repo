@@ -4,4 +4,4 @@ spring:
     username: docker
     password: 123456
     url: jdbc:mysql://111.231.228.108:3306/docker_order?characterEncoding=utf-8&useSSL=false
-env: remote
+env: test1
