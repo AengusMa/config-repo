@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: api-gateway
+  output:
+    ansi:
+      enabled: always
+server:
+  port: 6063
