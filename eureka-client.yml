@@ -1,0 +1,13 @@
+server:
+  port: 7070
+spring:
+  security:
+    user:
+      name: admin
+      password: 123123
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123123@localhost:8761/eureka/
+  instance:
+    hostname: localhost

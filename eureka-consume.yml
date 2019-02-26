@@ -1,1 +1,12 @@
 from: git-default
+server:
+  port: 7071
+spring:
+  security:
+    user:
+      name: admin
+      password: 123123
+# 服务降级
+feign:
+  hystrix:
+    enabled: true
